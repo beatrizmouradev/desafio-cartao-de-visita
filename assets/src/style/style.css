@@ -1,0 +1,44 @@
+body {
+
+    background-color: black;
+}
+.card {
+    background-image: url("../img/backgorund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    /*pra que as margens sejam compreendidas DENTRO do tamanho, usa-se box-sizing: border-box*/
+    margin: 10% auto; 
+    padding: 1px 20px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*colocando imagem no ícone de cada <li>*/
+#instagram {
+    list-style-image: url("../img/Insta.png");
+
+}
+#twitter {
+    list-style-image: url("../img/Twitter.png");
+
+}
+#youtube {
+    list-style-image: url("../img/Youtube.png");
+
+}
+
+
